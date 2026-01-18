@@ -133,6 +133,24 @@ font-family: sans-serif;
  border-color:rgb(42, 130, 165)blueviolet rgb(111, 255, 0) rgb(164, 36, 55);
 }
 
+.box_model1{
+    border: 5px solid black;
+    padding: 40px;
+    margin: 24px;
 
+}
 
+.simple{
+    border: 5px solid black;
+}
 
+.box_model2{
+    border: 5px solid yellow;
+    /* top, right, bottom ,left */
+    /* padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    padding-left: 50px; */
+/* top botttom , right left */
+    padding: 60px 20px;
+}
