@@ -1,0 +1,50 @@
+.img_b_shadow{
+
+    height: 550px;
+    width: 550px;
+    box-shadow: 7px 7px 5px black;
+}
+
+.img_b_shadow_1{
+     height: 550px;
+    width: 550px;
+    box-shadow: 8px 6px 16px blue;
+
+}
+
+.img_d_shadow{
+    height: 550px;
+    width: 550px;
+    filter: drop-shadow(6px 6px 15px pink);
+}
+
+.img_d_shadow_1{
+    height: 550px;
+    width: 550px;
+    filter: drop-shadow(15px  16px 10px green); 
+}
+.f_family1{
+    font-family: monospace ;
+}
+
+.f_family2{
+    font-family: cursive;
+}
+
+.f_family3{
+font-family: sans-serif;
+}
+
+.f_family4{
+    font-family: 'Times New Roman', Times, serif,'Arial', Helvetica, 'sans-serif';
+}
+.f_weight{
+    font-weight: bolder;
+    font-style: italic;
+
+}
+
+.f_font{
+    font: italic bold 40px cursive;
+
+}
