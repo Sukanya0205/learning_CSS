@@ -154,3 +154,39 @@ font-family: sans-serif;
 /* top botttom , right left */
     padding: 60px 20px;
 }
+
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: bisque;
+    border: 4px solid black;
+    margin: 10px;
+
+}
+.box1{
+    position: static;
+}
+
+.box2{
+    position: relative;
+    top:20px;
+    left: 250px;
+
+}
+
+.box3{
+    position: absolute;
+    top:20px;
+    left: 250px;
+
+}
+
+.box4{
+   position: fixed; 
+   bottom: 0px;
+   right: 10px;
+}
+.box5{
+    position: sticky;
+    top: 0px;
+}
