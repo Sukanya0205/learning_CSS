@@ -48,3 +48,12 @@ font-family: sans-serif;
     font: italic bold 40px cursive;
 
 }
+
+.heading1{
+    color: aqua;
+    font-family: cursive;
+}
+
+#heading1{
+    color: blueviolet;
+}
