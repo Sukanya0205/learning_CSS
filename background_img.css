@@ -19,3 +19,8 @@ body{
     font-family:cursive ;
 
 }
+
+.linear{
+    height: 300px;
+    background: linear-gradient(red green blue);
+}
