@@ -1,46 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hover</title>
     <style>
-h1{
-    color: palevioletred;
-    text-align: center;
-}
+        h1 {
+            color: palevioletred;
+            text-align: center;
+        }
 
-h1:hover{
-    color: rgb(229, 149, 52);
-    background-color: rgb(234, 206, 210);
-    
-}
-p{
-    border: 2px solid black;
-}
-img:hover{
-    height: 300px;
-    width: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+        h1:hover {
+            color: rgb(229, 149, 52);
+            background-color: rgb(234, 206, 210);
 
-}
+        }
 
-p:hover{
-    padding: 10px;
-    background-color: plum;
-    color: black;
+        p {
+            border: 2px solid black;
+        }
 
-}
+        img:hover {
+            height: 300px;
+            width: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
+        }
 
+        p:hover {
+            padding: 10px;
+            background-color: plum;
+            color: black;
+
+        }
+
+        h2:active {
+            color: blue;
+            font-size: 40px;
+            cursor: pointer;
+        }
+
+        a:visited {
+            color: rgb(226, 20, 88);
+            display: flex;
+        }
+
+        input:focus {
+            background-color: aqua;
+            color: black;
+            border: 4px solid red;
+            padding: 2px;
+        }
+
+        p::first-letter {
+                color: rgb(196, 31, 31);
+                font-size: 40px;
+            }
+
+            p::first-line {
+                color: rgb(118, 9, 221);
+            }
+
+            ::selection {
+                color: pink;
+                background-color: black;
+
+            }
+
+            input::placeholder {
+                color: gray;
+                font-style: italic;
+            }
+
+            a{
+                margin-left: 20px;
+
+            }
     </style>
 </head>
-<body>
-   <h1>Sukanya</h1> 
-   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, similique beatae. Quis doloribus ipsa eum voluptate, ab officia quam ducimus! Sed illum aliquam ea accusamus repellendus a culpa ab quibusdam?</p>
 
-   <img src="image/puppy-1047521_640.jpg" alt="">
+<body>
+    <h1>Sukanya</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, similique beatae. Quis doloribus ipsa eum
+        voluptate, ab officia quam ducimus! Sed illum aliquam ea accusamus repellendus a culpa ab quibusdam?</p>
+
+    <img src="image/puppy-1047521_640.jpg" alt="">
+
+    <h2>Welcome</h2>
+
+    <a href="https://github.com/login">Click me</a>
+
+    <a href="https://leetcode.com/">Click Here</a>
+    <a href="https://www.pinterest.com/">Pintrest</a>
+<br><br>
+
+    <input type="text" placeholder="enter name" />
+
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia cum corporis molestias quidem, iure omnis odit ad
+        reprehenderit optio? Obcaecati hic nostrum voluptatem deleniti consequuntur mollitia optio quo esse nam. Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Nesciunt perferendis quaerat a ipsum nam et vel cumque. Eius
+        enim voluptatem maxime aliquam perspiciatis, odio autem corrupti voluptates, minus blanditiis animi?</p>
+
 </body>
+
 </html>
+
