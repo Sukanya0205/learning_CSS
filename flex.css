@@ -29,21 +29,17 @@
 .flex_gallary{
     height: 150px;
     width: 150px;
-    margin: 50px;
+    margin: 20px;
    display: flex;
-   margi
 
 }
 
 .gallary{
     display: flex;
-    margin: 10px;
+    margin: 2px;
     flex-direction: row;
     flex-wrap: wrap;
-    /* height: 100px;
-    width: 100px; */
-    justify-content: space-around;
-    margin: 10px;
+    justify-content: space-between;
 
 }
 
