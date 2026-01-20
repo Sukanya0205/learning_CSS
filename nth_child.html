@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nth Childh2</title>
+    <style>
+        ul {
+            width: 200px;
+            padding: 10px;
+            list-style: none;
+            font-weight: 900;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+
+        li {
+
+            padding: 10px;
+            border: 2px solid black;
+            margin: 10px;
+            border-radius: 30px;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+
+        }
+
+        li:nth-child(odd) {
+            background-color: pink;
+        }
+
+        li:nth-child(even) {
+            background-color: aquamarine;
+        }
+
+        li:first-child {
+            background-color: aliceblue;
+        }
+
+        li:last-child {
+            background-color: bisque;
+        }
+
+        li:nth-child(5){
+            background-color: aqua;
+        }
+
+        li:hover{
+            background-color: black;
+            color: pink;
+            font-style: italic;
+
+        }
+
+        table{
+            padding: 20px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>List With: nth-child Example</h2>
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+        <li>item 6</li>
+        <li>item 7</li>
+
+    </ul>
+
+    <table border="2">
+        <caption><i>Employee Details</i></caption>
+        <thead>
+            <tr>
+                <th>EmpID</th>
+                <th>Name</th>
+                <th>Salary</th>
+                <th>EmailID</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>Sam</td>
+                <td>40000</td>
+                <td>sam02@gmail.com</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Bob</td>
+                <td>60000</td>
+                <td>bob123@gmail.com</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Jack</td>
+                <td>45000</td>
+                <td>jack562@gmail.com</td>
+            </tr>
+            <tr>
+                <td>104</td>
+                <td>Roby</td>
+                <td>90000</td>
+                <td>roby13@gmail.com</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>EmpID</th>
+                <th>Name</th>
+                <th>Salary</th>
+                <th>EmailID</th>
+
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
