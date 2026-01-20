@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Animation</title>
+    <style>
+        div {
+            width: 500px;
+            height: 700px;
+            border-radius: 0%;
+            background-color: pink;
+            border: 2px solid black;
+            position: relative;
+            animation: movingcircle;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-delay: 0s;
+            animation-direction: alternate;
+        }
+
+        @keyframes movingcircle {
+            0%{background-image: url(image/sunlight.jpg)}
+            25%{background-image: url(image/shinchan.jpg)}
+            50%{background-image: url(image/daisy-6660244_640.jpg)}
+            75%{background-image: url(image/diamond-tiara-crown-majestic-headpiece-sparkling-gems-gold.png);}
+            100%{background-image: url(image/panda.png);} 
+
+
+        }
+
+        /* .bgimg {
+            background-image: url(image/sunlight.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        } */
+        
+    </style>
+</head>
+
+<body>
+    <div class="bgimg"></div>
+</body>
+
+</html>

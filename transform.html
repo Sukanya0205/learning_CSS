@@ -1,11 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transform</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+
+            /* margin-left: 30px; */
+            padding-top: 50px;
+            gap: 30px;
+
+
+
+        }
+
+        .box {
+            background-color: aquamarine;
+            border-radius: 30px;
+            height: 150px;
+            width: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: transform 2s ease-in 500ms;
+            font-size: larger;
+
+        }
+
+        .box1:hover {
+            transform: translate(500px, 500px);
+        }
+
+        .box2:hover {
+            transform: translatex(-80px);
+        }
+
+        .box3:hover {
+            transform: translateY(-180px);
+        }
+
+        .box4:hover {
+            transform: rotate(-360deg);
+        }
+
+        .box5:hover {
+            transform: skewx(50deg);
+        }
+
+        .box6:hover {
+            transform: skewy(50deg);
+        }
+
+        .box7:hover {
+            transform: skew(50deg, 50deg);
+        }
+
+        .box8:hover {
+            transform: scale(2);
+        }
+
+        .box9:hover {
+            transform: scale(2) rotate(360deg) translate(50px,50px);
+        }
+    </style>
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="box box1">Translate</div>
+        <div class="box box2">Translate X</div>
+        <div class="box box3">Translate Y</div>
+        <div class="box box4">Rotate</div>
+        <div class="box box5">Skew X</div>
+        <div class="box box6">Skew Y</div>
+        <div class="box box7">Skew</div>
+        <div class="box box8">Scale</div>
+        <div class="box box9">Multiple</div>
+
+
+    </div>
 </body>
+
 </html>
