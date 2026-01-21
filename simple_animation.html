@@ -7,34 +7,55 @@
     <title>Simple Animation</title>
     <style>
         div {
-            width: 500px;
-            height: 700px;
-            border-radius: 0%;
-            background-color: pink;
+            width: 250px;
+            height: 250px;
+            border-radius: 10px;
+            /* background-color: rgb(220, 101, 121); */
             border: 2px solid black;
             position: relative;
             animation: movingcircle;
             animation-duration: 10s;
-            animation-iteration-count: infinite;
+            animation-iteration-count: 2;
             animation-delay: 0s;
             animation-direction: alternate;
+            transform: rotate(45deg) skew(-30deg,-30deg);
+            background-size: cover;
         }
 
         @keyframes movingcircle {
-            0%{background-image: url(image/sunlight.jpg)}
-            25%{background-image: url(image/shinchan.jpg)}
-            50%{background-image: url(image/daisy-6660244_640.jpg)}
-            75%{background-image: url(image/diamond-tiara-crown-majestic-headpiece-sparkling-gems-gold.png);}
-            100%{background-image: url(image/panda.png);} 
+            0%{
+                background-image: url(image/duck.jpg ) ;
+                top: 0px;
+                left:0px;
+            }
 
+            25%{
+                background-image: url(image/shinchan.jpg);
+                top: 0px;
+                left:400px;
+            }
+
+            50%{
+                background-image: url(image/daisy-6660244_640.jpg);
+                /* background-size: cover; */
+                top: 400px;
+                left: 400px;
+            }
+            75%{
+                background-image: url(image/fox.png);
+                left: 0px;
+                top: 400px;
+            }
+            100%{
+                background-image: url(image/duck.jpg);
+                top: 0px;
+                left: 0px;
+            }  
+        
 
         }
 
-        /* .bgimg {
-            background-image: url(image/sunlight.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-        } */
+         
         
     </style>
 </head>
