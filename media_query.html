@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+
+    <style>
+/* Mobile first,we start from the smallest viewport width */
+        @media only screen and (min-width: 320px) and (max-width:767px){
+            body{
+                background: blueviolet;
+            }
+
+            p{
+                display: none;
+            }
+
+            h1{
+                font-size: 10px;
+                color: azure;
+                text-shadow: 3px 4px 5px red;
+            }
+
+            .big_img{
+                display: none;
+            }
+        }
+
+        /* from 768px and up */
+        @media (min-width:768px){
+            body{
+                background-color: green;
+
+            }
+            h1{
+                color: aqua;
+                font-size: 40px;
+            }
+
+        }
+        /* from 1024px and up */
+        @media (min-width:1024px ){
+            body{
+                background-color: yellow;
+
+            }
+            h1{
+                color: white;
+                font-size: 30px;
+            }
+        }
+
+        /* max-width query */
+        @media (min-width:850px) and (max-width:950px){
+            body{
+                background-color: purple;
+
+            }
+
+            h1,h3{
+                color: white;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+    <img class="big_img" src="image/duck.jpg" alt="duck">
+    <h1>CSS Media Queries</h1>
+    <p>The background will change according to the viewport width range</p>
+    <h3>Smartphone</h3>
+</body>
+</html>
